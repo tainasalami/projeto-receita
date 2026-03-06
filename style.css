@@ -10,8 +10,14 @@
 }
 
 body {
-  background-image: url(assets/bg.jpg);
+  margin: 0;
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(120, 90, 60, 0.55), rgba(120, 90, 60, 0.55)),
+    url("assets/bg.jpg");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #page {
@@ -20,7 +26,7 @@ body {
   padding: 24px;
   background-color: #F0E8C2;
   border-radius: 24px;
-  margin: 48px auto;
+  margin: 48px auto 28px;
 }
 
 img {
@@ -57,4 +63,14 @@ h1, h2 {
 
 ul {
   padding-left: 24px;
+}
+
+footer {
+  color: #F0E8C2;
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+foot img {
+  vertical-align: middle;
 }
