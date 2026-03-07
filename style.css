@@ -20,9 +20,8 @@ body {
 }
 
 #page {
-  box-sizing: border-box;
   max-width: 800px;
-  width: 90%;
+  width: 100%;
   padding: 24px;
   background-color: #F0E8C2;
   border-radius: 24px;
@@ -32,12 +31,13 @@ body {
 img {
   width: 100%;
   height: auto;
+  display: block;
   border-radius: 16px;
   box-shadow: 0 8px 24px rgba(0,0,0,0.2);
 }
 
 main {
-  padding: 24px;
+  padding: 0;
 }
 
 section + section {
@@ -77,27 +77,19 @@ footer img {
   vertical-align: middle;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
 
-  #page {
+  body {
     padding: 16px;
-    margin: 24px auto;
   }
 
-  main {
-    padding: 16px;
+  #page {
+    padding: 20px;
+    margin: 0;
   }
 
   h1 {
     font-size: 28px;
-  }
-
-  h2 {
-    font-size: 20px;
-  }
-
-  p, li {
-    font-size: 14px;
   }
 
 }
