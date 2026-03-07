@@ -109,4 +109,11 @@ footer {
     font-size: 28px;
   }
 
+  .heart {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  display: inline;
+  }
+
 }
