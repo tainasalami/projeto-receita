@@ -1,13 +1,16 @@
+/* Reset básico */
 * {
   box-sizing: border-box;
 }
 
+/* Tipografia base */
 :root {
   font-family: "Alice", serif;
   line-height: 150%;
   color: #573A37;
 }
 
+/* Fundo da página */
 body {
   margin: 0;
   min-height: 100vh;
@@ -19,6 +22,7 @@ body {
   background-repeat: no-repeat;
 }
 
+/* Container principal */
 #page {
   max-width: 800px;
   width: 100%;
@@ -28,6 +32,7 @@ body {
   margin: 48px auto 28px;
 }
 
+/* Imagem principal */
 #page > img {
   width: 100%;
   height: auto;
@@ -36,49 +41,59 @@ body {
   box-shadow: 0 8px 24px rgba(0,0,0,0.2);
 }
 
+/* Conteúdo */
 main {
   padding: 0;
 }
 
+/* Espaçamento entre seções */
 section + section {
   margin-top: 24px;
 }
 
+/* Espaçamento entre parágrafos do about */
 #about p + p {
   margin-top: 12px;
 }
 
+/* Títulos */
 h1 {
   line-height: 140%;
-  font-size: 40px;;
+  font-size: 40px;
 }
 
 h2 {
   font-size: 24px;
 }
 
-h1, h2 {
+h1,
+h2 {
   color: #291B1A;
   margin-bottom: 4px;
   line-height: 150%;
 }
 
+/* Lista */
 ul {
   padding-left: 24px;
 }
 
+/* Footer */
 footer {
   color: #F0E8C2;
   text-align: center;
   padding-bottom: 48px;
 }
 
-footer img {
+/* Coração */
+.heart {
   width: 16px;
   height: 16px;
   vertical-align: middle;
+  display: inline;
 }
 
+/* Responsividade */
 @media (max-width: 600px) {
 
   body {
