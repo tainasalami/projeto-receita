@@ -28,7 +28,7 @@ body {
   margin: 48px auto 28px;
 }
 
-img {
+#page > img {
   width: 100%;
   height: auto;
   display: block;
