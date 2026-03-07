@@ -1,6 +1,5 @@
 * {
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -71,6 +70,28 @@ footer {
   padding-bottom: 48px;
 }
 
-foot img {
+footer img {
   vertical-align: middle;
+}
+
+@media (max-width: 480px) {
+
+  #page {
+    width: 95%;
+    padding: 16px;
+    margin: 16px auto;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p, li {
+    font-size: 14px;
+  }
+
 }
